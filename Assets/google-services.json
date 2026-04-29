@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1043585707769",
+    "firebase_url": "https://p3-tsp-mrp-default-rtdb.firebaseio.com",
+    "project_id": "p3-tsp-mrp",
+    "storage_bucket": "p3-tsp-mrp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043585707769:android:5fbb3ccf31bf4a2842bc28",
+        "android_client_info": {
+          "package_name": "com.MRPINC.VR20262"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHDLCUHyP-lt8SdgjjgmqEdtyazQTPTiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
