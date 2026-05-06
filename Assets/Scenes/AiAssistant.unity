@@ -624,11 +624,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022cb1659b68ed14cb5345ec551f1bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 0}
-  chatText: {fileID: 0}
-  enviarButton: {fileID: 0}
-  unityChanAnimator: {fileID: 0}
-  apiKey: 
+  inputField: {fileID: 1344699891}
+  chatText: {fileID: 2007716374}
+  enviarButton: {fileID: 105915255}
+  unityChanAnimator: {fileID: 1262869974}
+  apiKey: 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
 --- !u!4 &656559097
 Transform:
   m_ObjectHideFlags: 0
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 879957798}
   - component: {fileID: 879957797}
   - component: {fileID: 879957796}
-  - component: {fileID: 879957795}
+  - component: {fileID: 879957799}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -981,25 +981,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &879957795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879957794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 879957797}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: GreninjaEX
-  mDatasetName: Vuforia/TSPMRP.xml
-  mCastedBehaviour: {fileID: 879957797}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &879957796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1051,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 879957795}
+  mPreview: {fileID: 879957799}
 --- !u!4 &879957798
 Transform:
   m_ObjectHideFlags: 0
@@ -1088,6 +1069,30 @@ Transform:
   - {fileID: 2007716373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &879957799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879957794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 879957797}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: GreninjaEX
+  mDatasetName: Vuforia/TSPMRP.xml
+  mCastedBehaviour: {fileID: 879957797}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!95 &1262869974 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4127175938517750566, guid: d9e337dc6acbbda468331feab73252fa, type: 3}
+  m_PrefabInstance: {fileID: 511721204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1344699889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,14 +1637,14 @@ RectTransform:
   m_GameObject: {fileID: 2007716372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13551268, y: 0.22371788, z: 0.13551268}
+  m_LocalScale: {x: 0.0888001, y: 0.07865389, z: 0.0888001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 879957798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.156, y: 0.833}
+  m_AnchoredPosition: {x: -1.113, y: 0.833}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2007716374
@@ -1727,7 +1732,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -4.890987, z: 0, w: -2.3128858}
+  m_margin: {x: 0, y: -4.890987, z: 0, w: -9.523193}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
